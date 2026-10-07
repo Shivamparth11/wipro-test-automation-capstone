@@ -7,9 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
-/**
- * Page Object for the SauceDemo product/inventory page shown after login.
- */
+
 public class InventoryPage extends BasePage {
 
     @FindBy(className = "title")
