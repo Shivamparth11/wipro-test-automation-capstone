@@ -10,11 +10,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 import static org.testng.Assert.assertEquals;
 
-/**
- * API automation using RestAssured against the public reqres.in test API.
- * Demonstrates: GIVEN/WHEN/THEN style, status codes, JSON path extraction,
- * request/response specifications, and CRUD (GET/POST/PUT/DELETE).
- */
+
 public class UserApiTest {
 
     @BeforeClass
