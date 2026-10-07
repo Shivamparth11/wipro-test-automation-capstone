@@ -8,10 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-/**
- * Base class every Page Object extends.
- * Handles driver creation and shared wait utility.
- */
+
 public class BasePage {
 
     protected static WebDriver driver;
