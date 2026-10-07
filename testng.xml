@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Capstone Test Automation Suite" parallel="classes" thread-count="2" verbose="1">
+
+    <test name="UI Regression - Login (TestNG POM)">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="BDD Suite - Cucumber">
+        <classes>
+            <class name="runners.CucumberTestRunner"/>
+        </classes>
+    </test>
+
+    <test name="API Suite - RestAssured">
+        <classes>
+            <class name="api.UserApiTest"/>
+        </classes>
+    </test>
+
+</suite>
